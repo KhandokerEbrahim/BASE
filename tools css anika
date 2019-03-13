@@ -16,3 +16,73 @@ CSS Disadvantages
 •	Fragmentation - With CSS, what works with one browser may not always work with another. This is why web developers have to test for compatibility, running the program across multiple browsers before a website is set live. If only people use Mozilla or Chrome, but they don’t.
 
 •	Lack of security - Because it is an open text-based system, CSS doesn’t have the built-in security that will protect it from being overridden. Anyone who has a read/write access to a website can change the CSS file, alter the links or disrupt the formatting, whether by accident or design.
+
+
+
+
+xUnit.net:
+xUnit.net is a unit testing tool for the .NET Framework. Written by the original inventor of NUnit, xUnit.net is the latest technology for unit testing C#, F#, VB.NET and other .NET languages. Works with ReSharper, CodeRush, and TestDriven.NET. xUnit.net is a developer testing framework, built to support Test Driven Development, with a design goal of extreme simplicity and alignment with framework features. It is compatible with .NET Framework 2.0 and later, and offers several runners: console, GUI, MSBuild, and Visual Studio integration via TestDriven.net, CodeRush Test Runner and Resharper. It also offers test project integration for ASP.NET MVC. xUnit.net is even used internally by some high profile Microsoft projects such as: ASP.NET Web Stack Entity Framework
+
+Advantages:
+•	It is integrated into different add-ons for Visual Studio like Resharper, it supports in TeamCity and it has stand-alone test launcher
+
+•	xUnit.net is a standalone framework – it can be run anywhere without requiring installation, simply by copying the correct files.
+
+•	There are a much wider variety of assertions provided by xUnit.net by default compared to MSTest.
+
+•	Out of the box xUnit.net can accept input from the following sources:
+
+•	Inline data
+
+•	Property data
+
+•	Excel spreadsheet
+
+•	OleDb connection
+
+•	SQL Server database
+
+•	xUnit.net provides it’s own custom MSBuild task which allows direct integration into the build process.
+
+Disadvantages:
+•	It doesn't support trace output (by design apparently). No Console
+
+•	No Trace/Debug
+
+•	Basically test your code but you can't work out why it failed.
+
+•	Unlike MSTest which provides project items and snippets with the IDE, xUnit.net does not provide any by default
+
+NUnit:
+Advantages:
+•	Fast and less costly
+
+•	Test Isolation “Any Unit Test is better than none”
+
+•	Environment Isolation – Use Mock Objects
+
+•	Unit testing gives you a safety net when programmers refactor or add functionality
+
+•	Unit tests can be used as documentation for other programmers
+
+•	Development process becomes more flexible
+
+Disadvantages:
+•	Unnecessary Unit Tests can lead to considerably high maintenance cost to your overall project “Any Unit Test is better than none”
+
+Junit:
+Advantages:
+•	Alternate front ends to display results of tests are available like command line, AWT and Swing.
+
+•	Separate class loaders for each unit test to avoid side effects.
+
+•	Provides methods like setUp and tearDown for standard resource initialization.
+
+•	A set of assert methods to check results of tests.
+
+•	Integration with popular tools such as Ant and Maven and IDE’s like Eclipse and Jbuilder.
+
+Disadvantages:
+•	Cannot do dependency testing. TestNG allows this.
+
+•	Not suitable for higher level testing. (Large test suites.)
