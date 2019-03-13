@@ -1,0 +1,430 @@
+Tools
+Sayma1025 edited this page 3 hours ago · 9 revisions
+1 CSS
+CSS Advantage
+CSS handles the look and feel part of a web page. Using CSS, you can control the color of the text, the style of fonts, the spacing between paragraphs, how columns are sized and laid out, etc. The following are the advantages of CSS −
+
+•	CSS saves time - You can write CSS once and then reuse the same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+
+•	Easy maintenance − To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.
+
+•	Global web standards − Now HTML attributes are being deprecated and it is being recommended to use CSS. So it's a good idea to start using CSS in all the HTML pages to make them compatible with future browsers.
+
+•	Platform Independence − The Script offer consistent platform independence and can support latest browsers as well.
+
+CSS Disadvantages
+•	Come in different levels - There’s CSS, CSS 1 up to CSS3, which has resulted in confusion among developers and web browsers. One type of CSS should be enough. It would be preferable than having to choose which CSS level to use.
+
+•	Fragmentation - With CSS, what works with one browser may not always work with another. This is why web developers have to test for compatibility, running the program across multiple browsers before a website is set live. If only people use Mozilla or Chrome, but they don’t.
+
+•	Lack of security - Because it is an open text-based system, CSS doesn’t have the built-in security that will protect it from being overridden. Anyone who has a read/write access to a website can change the CSS file, alter the links or disrupt the formatting, whether by accident or design.
+
+2 PHP
+Advantages of PHP
+•	Cross-Platform PHP is, an application can be run on various platforms. The most important advantage of PHP is the developer need not have to worry about the operating system the user is working on. As the PHP code run properly and smoothly on all operating systems. Furthermore, the server-side scripting language or PHP hosting service providers can easily be found. •	Ease of use Any individuals who are new to programming can easily learn to use them within a short duration of time. The syntax for programming in the hypertext preprocessor is quite similar to the C programming language. So the individual who is familiar with C can easily create PHP website scripts. •	Speed A very vital side of web development is the speed. Considering the very important fact, some individuals still struggle with the challenge of web data speed. A quick loading website always appreciated by many individuals. Furthermore, individuals typically like quick loading web sites compared to slower loading ones. Folks use PHP because of the important fact that it’s quick. • Open source and Powerful library support Another advantage to using the PHP hyper text Preprocessor is it’s developed and maintained by a cluster of PHP developers, this help in making a support community, extensive extension library. PHP additionally has immense collection functional modules and a few of the modules available in PHP include Graphics and PDF amongst others. • Stable PHP has been in existence for about twenty-two years. Over this era, many developers have worked on the application to enhance the usage of the application. lots of bugs are discovered over the years and therefore the bugs are fixed quickly by the team of developers. Based on this, the programming language is currently very stable.
+
+Disadvantages of PHP Language
+•	Security: Since it is open sourced, so all people can see the source code, if there are bugs in the source code of website development, it can be used by people to explore the weakness of PHP.
+
+•	Large Applications Compatibility: It is not suitable for large Web Applications, hard to maintain since it is not very modular.
+
+•	Weak type: Implicit conversion may surprise unwary programmers and lead to unexpected bugs.
+
+3 MySQL
+MySQL is the world's most popular open source database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and many more. Oracle drives MySQL innovation, delivering new capabilities to power next generation web, cloud, mobile and embedded applications.
+
+Advantages:
+Increasing the performance of applications: As we know that after creating the stored procedure it is compiled and stored in the database. But MySQL implements stored procedures slightly different which helps in increasing the performance of the applications. MySQL stored procedures are compiled on demand. After compiling a stored procedure, MySQL puts it into a cache. And MySQL maintains its own stored procedure cache for every single connection. If an application uses a stored procedure multiple times in a single connection, the compiled version is used; otherwise, the stored procedure works like a query.
+
+Fast: MySQL Stored procedures are fast because MySQL server takes some advantage of caching. Another reason for its speed is that it makes the reduction in network traffic. Suppose, if we have a repetitive task that requires checking, looping, multiple statements, and no user interaction, does it with a single call to a procedure that's stored on the server.
+
+Portable: MySQL Stored procedures are portable because when we write our stored procedure in SQL, we know that it will run on every platform that MySQL runs on, without obliging us to install an additional runtime-environment package or set permissions for program execution in the operating system.
+
+Reusable and transparent: Stored procedures expose the database interface to all applications so that developers don’t have to develop functions that are already supported in stored procedures. Hence, we can say that MySQL stored procedures are reusable and transparent.
+
+Secure: MySQL stored procedures are secure because the database administrator can grant appropriate permissions to applications that access stored procedures in the database without giving any permissions on the underlying database tables.
+
+Disadvantages:
+Memory usage increased: If we use many stored procedures, the memory usage of every connection that is using those stored procedures will increase substantially.
+
+Restricted for complex business logic: Actually, stored procedure’s constructs are not designed for developing complex and flexible business logic.
+
+Difficult to debug: It is difficult to debug stored procedures. Only a few database management systems allow you to debug stored procedures. Unfortunately, MySQL does not provide facilities for debugging stored procedures.
+
+Difficult to maintain: It is not easy to develop and maintain stored procedures. Developing and maintaining stored procedures are often required a specialized skill set that not all application developers possess. This may lead to problems in both application development and maintenance phases.
+
+5 Unit Testing Tools
+A unit testing is a procedure used to verify that a particular module of ource code is working properly companys wants to achieve three related goals : •	Faster time-to-market
+
+•	Higher quality
+
+•	more flexibility
+
+xUnit.net:
+xUnit.net is a unit testing tool for the .NET Framework. Written by the original inventor of NUnit, xUnit.net is the latest technology for unit testing C#, F#, VB.NET and other .NET languages. Works with ReSharper, CodeRush, and TestDriven.NET. xUnit.net is a developer testing framework, built to support Test Driven Development, with a design goal of extreme simplicity and alignment with framework features. It is compatible with .NET Framework 2.0 and later, and offers several runners: console, GUI, MSBuild, and Visual Studio integration via TestDriven.net, CodeRush Test Runner and Resharper. It also offers test project integration for ASP.NET MVC. xUnit.net is even used internally by some high profile Microsoft projects such as: ASP.NET Web Stack Entity Framework
+
+Advantages:
+•	It is integrated into different add-ons for Visual Studio like Resharper, it supports in TeamCity and it has stand-alone test launcher
+
+•	xUnit.net is a standalone framework – it can be run anywhere without requiring installation, simply by copying the correct files.
+
+•	There are a much wider variety of assertions provided by xUnit.net by default compared to MSTest.
+
+•	Out of the box xUnit.net can accept input from the following sources:
+
+•	Inline data
+
+•	Property data
+
+•	Excel spreadsheet
+
+•	OleDb connection
+
+•	SQL Server database
+
+•	xUnit.net provides it’s own custom MSBuild task which allows direct integration into the build process.
+
+Disadvantages:
+•	It doesn't support trace output (by design apparently). No Console
+
+•	No Trace/Debug
+
+•	Basically test your code but you can't work out why it failed.
+
+•	Unlike MSTest which provides project items and snippets with the IDE, xUnit.net does not provide any by default
+
+NUnit:
+Advantages:
+•	Fast and less costly
+
+•	Test Isolation “Any Unit Test is better than none”
+
+•	Environment Isolation – Use Mock Objects
+
+•	Unit testing gives you a safety net when programmers refactor or add functionality
+
+•	Unit tests can be used as documentation for other programmers
+
+•	Development process becomes more flexible
+
+Disadvantages:
+•	Unnecessary Unit Tests can lead to considerably high maintenance cost to your overall project “Any Unit Test is better than none”
+
+Junit:
+Advantages:
+•	Alternate front ends to display results of tests are available like command line, AWT and Swing.
+
+•	Separate class loaders for each unit test to avoid side effects.
+
+•	Provides methods like setUp and tearDown for standard resource initialization.
+
+•	A set of assert methods to check results of tests.
+
+•	Integration with popular tools such as Ant and Maven and IDE’s like Eclipse and Jbuilder.
+
+Disadvantages:
+•	Cannot do dependency testing. TestNG allows this.
+
+•	Not suitable for higher level testing. (Large test suites.)
+
+6 Continuous Intregrating Tools
+Buildbot:
+Advantages:
+•	Highly configurable builds
+
+•	Hosted internally
+
+•	Free open source
+
+•	No external web fonts by default
+
+•	They build your code and run your tests without your conscious involvement
+
+•	They can build your code and run your tests in multiple environments.
+
+•	They provide a de facto set of docs on your build & test environment.
+
+•	They are evidence that it is possible to build your code and run your tests on at least some platform.
+
+•	They can run all the tests, even the slow ones, regularly.
+
+Disadvantages:
+•	It's online documentation is very sparse and it is very difficult to find docs for a consistent version number. Most of my gripes are with the Buildbot Website itself more than the product.
+
+•	Flexibility comes with a cost and you have to be a programmer to do something beyond trivial. Some of Buildbot extensions were hard to customize and reuse
+
+•	The learning curve to get started with this was much heavier.
+
+•	Debugging not easy
+
+Jenkins:
+Advantages:
+•	Easy installation
+
+•	There are a lot of plugins that can be installed on Jenkins to integrate different build and analysis tools
+
+•	Open source with great support
+
+•	Build and deployment automation. You can build almost any code base from most standard code repositories and push the artifacts to the application servers.
+
+•	Many plugins. The Plugin community is huge, so if Jenkins doesn't do something out of the box, there is probably a plugin to do it.
+
+•	Multiple step orchestration. Any build can be created with many steps, including pre and post build. Additionally, you can tie builds together.
+
+•	Delivery: Jenkins does a perfect job in hands of our Release Engineering department to provide new product builds to numerous projects in timely fashion.
+
+•	Continuous Integration: Quality Assurance team does not start working on a System Test of the new build until it passed an automated Sanity Test in a CI environment.
+
+•	Delivery (again): Development and QA teams no more spending hours looking at terminal screens while installing a new build to target environment and moreover we're now guarded from human errors in this automated process, thus saving precious time.
+
+Disadvantages:
+•	UI Interface it’s very intuitive
+
+•	Configuration is a bit confusing
+
+•	Errors messages are not very clear about what went wrong.
+
+•	User management is a bit simple, and it is hard to manage users across multiple clients with the Jenkins internal database.
+
+•	Automated deployment and configuration of Jenkins itself. The config files are hard to template out and change with each version.
+
+•	Windows Slaves. Windows Java slaves are unreliable, especially when run as a service.
+
+•	With growing audience of Jenkins within our company the performance and thus usability of the Jenkins control page becoming more and more critical issue. All projects are listed in a single page without paging and it's an issue when you have many hundreds of projects listed.
+
+•	Learning curve is a little too steep: newcomers spend weeks to familiarize themselves with Jenkins. Configuring a project in Jenkins is not as intuitive as we would like it to be.
+
+Perforce Helix:
+Advantages:
+•	Workspace model: check out and work in a subset of the codebase, either as a Git repository or as a workspace in P4V, an IDE, or other clients. This lets you make changes that are atomic across the entire codebase instead of just within a repository. (and you get the convenience of only having to sync the parts of the project that you actually need on that system.)
+
+•	Fine-grained access control. Set permissions down to the file level, not just repository or branch level.
+
+•	Support for very large codebases. You don't need to do the repository planning phase of setting up a large project, as you would with other Git management packages, since developers can configure workspaces to contain just the parts they need.
+
+•	Drag-and-drop versioning for office users through Perforce Commons. Easy to share versioned files with non-developer users, who can work in a simple web interface with history and comments.
+
+•	The Perforce visual client makes it easy to track changelists and file history
+
+•	Very stable with high performance
+
+•	Diff tool makes identifying code changes a snap.
+
+•	Works nicely with Visual Studio via plugin.
+
+•	Perforce Visual tool (P4V) is very extensive and pretty well organized. Perforce has a built in history tool.
+
+•	Very good history view: you can see when your code was last changed, committed, and by whom.
+
+•	You can add a lot of columns and history view, and sort a file by any of the columns.
+
+Disadvantages:
+•	Performing integrations is somewhat confusing for new users.
+
+•	Managing multiple workspaces can get difficult
+
+•	Backing out changes can be problematic if split across multiple change lists
+
+•	The UI can be hard to navigate for people new to the product.
+
+•	It could do with some simplification in areas such as connecting to servers, etc.
+
+•	UI seems dated.
+
+•	I was having a hard time learning it. Even if you are an experienced developer, there is some learning curve.
+
+•	Can be slow when working with large data sets at once.
+
+•	When working on multiple workspaces on the same machine, Perforce can make it difficult not to mess up the code.
+
+TestNG:
+Advantages :
+•	It generate logs
+
+•	You can do parallel testing
+
+•	Annotations helps to set program/function priority easy
+
+•	Allow to generate HTML report of execution
+
+•	You can group test cases
+
+•	You can set test cases priorities.
+
+•	You can do data Parameterization
+
+•	TestNG really makes automation testing easy.
+
+•	In TestNG Annotations are easy to understand over JUnit.
+
+•	In TestNG there is no constraint like you have to declare @BeforeClass and @AfterClass, which is present in JUnit.
+
+•	As method name constraint is present in JUnit, such method name constraint is not present in TestNG and you can specify any test method names.
+
+•	In TestNG enable you to grouping of test cases easily which is not possible in JUnit.
+
+•	TestNG supports following three 3 additional setUp/tearDown level:
+
+•	@Before/AfterSuite, @Before/AfterTest and @Before/AfterGroup.
+
+•	TestNG do not require extend any class.
+
+•	TestNG allows us to define the dependent test cases each test case is independent to other test case.
+
+•	TestNG allows us to execute of test cases based on group. Let’s take a scenario where we have created two set of groups “Regression” & “Sanity”. If we want to execute the test cases under Sanity group then it is possible in TestNG framework.
+
+•	Parallel execution of Selenium test cases is possible in TestNG.
+
+Disadvantages:
+•	Still it depends on you and your actual requirement.
+
+•	No need to use TestNG if you do not want to prioritize your test and do you want to use annotation
+
+PHPUnit:
+Advantages:
+•	code coverage should more accurately show code that was actually tested.
+
+•	Testing gives code authors and reviewers confidence that patches produce the correct results.
+
+•	Detect errors just after code is written.
+
+•	The tests are run at the touch of a button and present their results in a clear format.
+
+•	Tests run fast.
+
+•	The tests do not affect each other. If some changes are made in one test, the results of others tests do not change.
+
+Disadvantages:
+•	The risks is that sometimes a test is meant to test multiple functions and it would require having multiple @covers annotations
+
+•	If you change the method or function name and don't update the @covers annotation, then your code coverage won't cover the function or method you actually tested.
+
+•	Some people have trouble with getting started: where to put the files, how big the scope of one unit test is and when to write a separate testing suite and so on. It would be difficult to write a test for people who are not programmers or familiar with PHP
+
+RSpec:
+Advantages:
+•	If there is a failure, it prints how to run just that one test at the bottom of the output.
+
+•	One can easily copy and paste that line and run just the one test.
+
+Disadvantages:
+•	RSpec is a DSL for writing tests.this is probably RSpec’s largest weakness.
+
+Jmockit:
+Advantages:
+•	Setup for JMockit is easy
+
+•	No specific annotation for partial mock
+
+•	Mocking exception throwing with JMockito is especially easy.
+
+•	Easily configured
+
+•	Record-replay-verify pattern
+
+•	Easiness
+
+Disadvantages:
+•	Must use a Java agent to do bytecode instrumentation.
+
+•	Can't use the signed junit.jar file shipped with Eclipse.
+
+•	Have to learn a mock API.
+
+Html Unit:
+Advantages:
+•	Able to run far more instances simultaneously than non-headless drivers.
+
+•	Can make use of large amounts of factory-generated or manually created test variables in Data-Driven Testing
+
+•	Run-time can be reduced by up to 50% for most tasks.
+
+•	Can be executed without taking up the screen context of a computer.
+
+Disadvantages:
+•	Hard to debug inconsistent failures on locating elements due to page loading too fast
+
+•	Unintended interactions (losing the benefit of automated UI testing vs integration or unit testing) due to speed/headless state of browser
+
+•	Code for non-headless drivers will not always work when driver is switched to htmlunit. I.e. switching between ChromeDriver and FirefoxDriver is usually pretty consistent in success rate with same code, but switching to HtmlUnit might need extra tending to.
+
+5 Continuous Integration
+Continuous integration tools::
+
+Buildbot:
+
+Advantages:
+
+•	Highly configurable builds •	Hosted internally •	Free open source •	No external web fonts by default •	They build your code and run your tests without your conscious involvement •	They can build your code and run your tests in multiple environments. •	They provide a de facto set of docs on your build & test environment •	They are evidence that it is possible to build your code and run your tests on at least some platform. •	They can run all the tests, even the slow ones, regularly.
+
+Disadvantages:
+
+•	It's online documentation is very sparse and it is very difficult to find docs for a consistent version number. Most of my gripes are with the Buildbot Website itself more than the product. •	Flexibility comes with a cost and you have to be a programmer to do something beyond trivial. Some of Buildbot extensions were hard to customize and reuse •	The learning curve to get started with this was much heavier •	Debugging not easy
+
+Jenkins:
+
+Advantages:
+
+•	Easy installation •	There are a lot of plugins that can be installed on Jenkins to integrate different build and analysis tools •	Open source with great support •	Build and deployment automation. You can build almost any code base from most standard code repositories and push the artifacts to the application servers. •	Many plugins. The Plugin community is huge, so if Jenkins doesn't do something out of the box, there is probably a plugin to do it. •	Multiple step orchestration. Any build can be created with many steps, including pre and post build. Additionally, you can tie builds together. •	Delivery: Jenkins does a perfect job in hands of our Release Engineering department to provide new product builds to numerous projects in timely fashion. •	Continuous Integration: Quality Assurance team does not start working on a System Test of the new build until it passed an automated Sanity Test in a CI environment. •	Delivery (again): Development and QA teams no more spending hours looking at terminal screens while installing a new build to target environment and moreover we're now guarded from human errors in this automated process, thus saving precious time.
+
+Disadvantages:
+
+•	UI Interface it’s very intuitive •	Configuration is a bit confusing •	Errors messages are not very clear about what went wrong •	User management is a bit simple, and it is hard to manage users across multiple clients with the Jenkins internal database. •	Automated deployment and configuration of Jenkins itself. The config files are hard to template out and change with each version. •	Windows Slaves. Windows Java slaves are unreliable, especially when run as a service. •	With growing audience of Jenkins within our company the performance and thus usability of the Jenkins control page becoming more and more critical issue. All projects are listed in a single page without paging and it's an issue when you have many hundreds of projects listed... •	Learning curve is a little too steep: newcomers spend weeks to familiarize themselves with Jenkins. Configuring a project in Jenkins is not as intuitive as we would like it to be.
+
+Perforce Helix:
+
+Advantages:
+
+•	Workspace model: check out and work in a subset of the codebase, either as a Git repository or as a workspace in P4V, an IDE, or other clients. This lets you make changes that are atomic across the entire codebase instead of just within a repository. (and you get the convenience of only having to sync the parts of the project that you actually need on that system.) •	Fine-grained access control. Set permissions down to the file level, not just repository or branch level. •	Support for very large codebases. You don't need to do the repository planning phase of setting up a large project, as you would with other Git management packages, since developers can configure workspaces to contain just the parts they need. •	Drag-and-drop versioning for office users through Perforce Commons. Easy to share versioned files with non-developer users, who can work in a simple web interface with history and comments •	The Perforce visual client makes it easy to track changelists and file history • Very stable with high performance •	Diff tool makes identifying code changes a snap •	Works nicely with Visual Studio via plugin •	Perforce Visual tool (P4V) is very extensive and pretty well organized. Perforce has a built in history tool. •	Very good history view: you can see when your code was last changed, committed, and by whom. •	You can add a lot of columns and history view, and sort a file by any of the columns.
+
+Disadvantages:
+
+•	Performing integrations is somewhat confusing for new users •	Managing multiple workspaces can get difficult •	Backing out changes can be problematic if split across multiple change lists •	The UI can be hard to navigate for people new to the product. •	It could do with some simplification in areas such as connecting to servers, etc. •	UI seems dated. •	I was having a hard time learning it. Even if you are an experienced developer, there is some learning curve. •	Can be slow when working with large data sets at once. •	When working on multiple workspaces on the same machine, Perforce can make it difficult not to mess up the code.
+
+Bamboo:
+
+Advantages:
+
+•	Has a better UX, has support, and goes through QA. •	The best JIRA integration •	First-class support for deployments •	Painless CL on the branch •	Automated merging •	Whiz-bang extras for testing •	Flexible CL & CD pipelines •	On-the-fly customizations •	Powerful build agent management •	Legendary support & resources •	Fast import from Jenkins •	Simple and intuitive drag & drop UI for designing Pipelines, based on the same tasks, jobs, stages principles of Continuous Delivery, Fanning out/in is trivial •	Temporarily disabling/re-ordering stages, jobs or tasks is trivial. Jobs can be dragged/dropped between stages, stages and tasks can be dragged/dropped to re-order, with pop-up warnings if what you’re about to do doesn’t make sense. •	Chaining pipelines together, while not as slick as GoCD, is also possible •	A separate Deployment manager, in which you can easily manage deployment environments, track what you have released and where, and full traceability from a Release back to the Git commits and the JIRA issues it comprises. •	Automatically detects new branches and builds them. It is even possible for the same pipeline to behave differently on branch build. •	Build Artifacts are automatically managed through each pipeline run, right through to deployment; no need to stage artifacts in an external repository •	Integration with other Atlassian product is, as you would expect, vastly superior to other combinations you can dream up. •	Build Automation •	Continuous Integration •	Configuration Management •	Continuous Deployment
+
+Disadvantages:
+
+•	No passing of properties •	No concept of build promotion •	They could improve their pricing model for smaller teams •	They can focus on mobile applications •	The build plans seem to fail quite frequently. This occurs for no apparent reason. If it fails once, we will attempt to deploy again. Usually, after 2-3 times it will work. •	The soon-to-be lack of a cloud solution has lost us as a customer
+
+Teamcity:
+
+Advantages:
+
+•	TeamCity provides a great integration with git, especially Bitbucket. •	When a new code release (build) fails TeamCity has a great tool for investigation and troubleshooting. •	TeamCity provides a user-friendly interface. While some technical knowledge is required to use TeamCity, the design helps simply things. •	Easy to set up. The UI is pretty easy to navigate and use. You can have your project up and running in minutes. •	Good integration with various build frameworks/methodologies. You can run standard Maven, Ant or Gradle builds with virtually no customization. •	Decent support for extensions via the plug-in mechanism. You can integrate with other popular tools such as Artifactory via plug-ins. Or write your own. •	Ease of configuration. Some build systems are difficult to get started on. TeamCity can be up and running quickly. •	Cross platform. TeamCity runs on most configurations, and a master can configure agents of other OS types, so it can build nearly anything. •	Price. It's free for limited use, so you don't need to pay until you ramp up and are using it a lot.
+
+Disadvantages:
+
+•	The upgrade process could be smoother. Moving from one major version to another involves jumping onto all your servers and often causes some pain. •	Log formatting could be a little clearer, though that is true for almost all build systems. •	Upgrade process can be a bit of a pain - have to do this manually on your server. •	It's easy for the new user to get lost in the UI. Although this is true for most systems that offer such a wide range of configuration options. •	Upgrading TeamCity is a long and manual process. •	Java skills are needed to fully utilize TeamCity, although they are not necessary for basic or medium-level use.
+
+Circle ci:
+
+Advantages:
+
+•	Automated builds! This is really why you get CircleCI, to automate the build process. This makes building your application far more reliable and repeatable. It can also run tests and verify your application is working as expected. •	Simple. Unlike Jenkins, Teamcity, or other platforms, CircleCI doesn't need a lot of setup. It's completely hosted, so there's no infrastructure to set up. The config file does take a bit to understand, but if you follow their example and start with something small and add to it, you can get it up and going quicker than it first looks. •	Scales easily. Again, since it's all cloud-based, you don't have to manage or scale infrastructure. Simply subscribe to the number of containers you want, and scaling up just means buying more containers. •	CircleCI let us use someone else's infrastructure. •	The circle.yml file for configuring a build was liked a lot more by our users because it was easy to use. •	CircleCI is one of the few companies that can do iOS builds. • Clean user experience •	Docker support •	Fast and easy •	Clean documentation
+
+Disadvantages:
+
+•	Incomplete Docker support - currently CircleCi doesn't support docker exec (although they have a workaround), which is a little frustrating for our team. •	Old Ubuntu versions - the containers used to use Ubuntu Precise which made provisioning more difficult, but they are currently moving to Trusty Tahr. •	Proactive communication about updates and breaking changes •	Questions to account rep can sometimes take too long (for us -- > 1 day) to respond
+
+Codeship:
+
+Advantages:
+
+•	Pretty easy to set up. •	Great documentation. •	Can be integrated with top tech companies.
+
+Disadvantages: •	User Interface.
+
+Travis:
+
+Advantages:
+
+•	Lightweight and easy to set up •	Free for open source projects •	No dedicated server needed • Build matrix feature
+
+Disadvantages:
+
+•	Enterprise plans come with a cost •	Limited options for customization
