@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up for user</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    })
+  });    
+</script>
+</head>
+<body>
+
+
+<div class="jumbotron " style="margin: 40px">
+<div class="container">
+	<div class="col-lg-4"></div>
+	<div class="col-lg-4">
+	<div class="jumborton" style="margin-top: 50px ">
+	<h1 style="color:blue;" >Insert Train Details</h1>
+	<form action="insert.php" method="POST">
+
+	<div class="form-group" action="">
+    <label for="exampleInputEmail1">Train No</label>
+        <input type="text" name="TrainNO" required class="form-control" id="exampleInputEmail1" placeholder="First Name"  >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Train Name</label>
+    <input type="text" name="TrainName" required class="form-control" id="exampleInputEmail1" placeholder="Last Name" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Starting Place</label>
+    <input type="email"  name="StartingPlace" required class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Ending Place</label>
+    <input type="password" name="EndingPlace" required class="form-control" id="exampleInputPassword1" placeholder="Password" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Time</label>
+    <input type="text" name="Time" required class="form-control" id="exampleInputEmail1" placeholder="Address" >
+  </div>
+
+          <div class="form-group">
+    <label for="exampleInputEmail1">AddNewTrain</label>
+    <input type="text" name="AddNewTrain" required class="form-control" id="exampleInputEmail1"   >
+  </div>
+
+        <div class="form-group">
+    <label for="exampleInputEmail1">Add New Compertment</label>
+    <input type="text" name="AddNewCompertment" required class="form-control" id="exampleInputEmail1"   >
+  </div>
+        <div class="form-group">
+    <label for="exampleInputEmail1">AddNewSeat </label>
+    <input type="text" name="Time" required class="form-control" id="exampleInputEmail1" placeholder="Address" >
+  </div>
+        <div class="form-group">
+    <label for="exampleInputEmail1">Class</label>
+    <input type="text" name="Class" required class="form-control" id="exampleInputEmail1" placeholder="Address" >
+  </div>
+
+
+
+        <td><input type="submit" value="Submit"></td>
+        <button type="button" class="btn btn-primary btn-lg">Back</button>
+  </form>
+</div>
+
+
+
+
+
+</form>
+</form>
+</div>
+
+</body>
+</html>
