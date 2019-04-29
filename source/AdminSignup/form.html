@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="FirstName" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password" name="LastName" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Password" value="m" required>Male
+     <input type="radio" name="Password" value="f" required>Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email" name="Email" required></td>
+   </tr>
+   <tr>
+    <td>Phone no :</td>
+    <td>
+     <select name="address" required>
+      <option selected hidden value="">Select Code</option>
+      <option value="977">977</option>
+      <option value="978">978</option>
+      <option value="979">979</option>
+      <option value="973">973</option>
+      <option value="972">972</option>
+      <option value="974">974</option>
+     </select>
+     <input type="phone" name="Gender" required>
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
