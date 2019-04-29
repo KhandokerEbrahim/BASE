@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sign up for user</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	<script language="JavaScript" type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script language="JavaScript" type="text/javascript">
+  $(document).ready(function(){
+    $('.carousel').carousel({
+      interval: 2000
+    })
+  });    
+</script>
+</head>
+<body>
+
+
+<div class="jumbotron " style="margin: 40px">
+<div class="container">
+	<div class="col-lg-4"></div>
+	<div class="col-lg-4">
+	<div class="jumborton" style="margin-top: 50px ">
+	<h1 style="color:blue;" >Sign-up User</h1>
+	<form action="insert.php" method="POST">
+
+	<div class="form-group" action="">
+    <label for="exampleInputEmail1">First Name</label>
+        <input type="text" name="FirstName" required class="form-control" id="exampleInputEmail1" placeholder="First Name"  >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Last Name</label>
+    <input type="text" name="LastName" required class="form-control" id="exampleInputEmail1" placeholder="Last Name" >
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email"  name="Email" required class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" name="Password" required class="form-control" id="exampleInputPassword1" placeholder="Password" >
+  </div>
+
+
+  <div class="radio">
+      <label><input type="radio" name="Gender" required checked value="M"  > Male</label>
+    </div>
+    <div class="radio">
+      <label><input type="radio" name="Gender" value="F">Female</label>
+    </div>
+    <div class="radio disabled">
+      <label><input type="radio" name="Gender"  value="O">Other</label>
+    </div>
+        <td><input type="submit" value="Submit"></td>
+        <button type="button" class="btn btn-primary btn-lg">Back</button>
+  </form>
+</div>
+
+
+
+
+
+</form>
+</form>
+</div>
+
+</body>
+</html>
